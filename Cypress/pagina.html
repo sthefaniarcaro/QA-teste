@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Botão</title>
+</head>
+<body>
+    <h1>Teste de Botão</h1>
+    
+    <button id="botaoEnviar">Enviar</button>
+    <div id="mensagem" style="display:none;">Enviado com sucesso!</div>
+    
+    <script>
+        document.getElementById("botaoEnviar").onclick = function() {
+            document.getElementById("mensagem").style.display = "block";
+        };
+    </script>
+</body>
+</html>
